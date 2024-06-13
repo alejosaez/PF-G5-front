@@ -1,12 +1,11 @@
 'use client'
-
 import Image from 'next/image'
 import React from 'react'
 import Grow from '../../../public/grow.svg'
 import { FaHighlighter, FaRegLightbulb  } from "react-icons/fa6";
 import { SiSpotlight } from "react-icons/si";
 
-const Ads = () => {
+const Ads: React.FC = () => {
   return (
     <div className='my-[170px] px-[124px]'>
         <div className='flex justify-between'>
